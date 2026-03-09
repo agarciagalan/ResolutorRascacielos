@@ -117,10 +117,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 
 #### Following the last example:
 
-<div style="display: flex; gap: 20px;">
-	<table>
-		<caption id="tabla-1">1</caption>
-		<tr>
+<table border="0">
+  <tr>
+    <td>
+      <table>
+        <caption id="tabla-1">1</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -138,10 +140,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>2</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>2</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -159,10 +163,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>3</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>3</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -180,12 +186,16 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-</div>
-<div style="display: flex; gap: 20px;">
-	<table>
-		<caption id="tabla-4">4</caption>
-		<tr>
+        </table>
+    </td>
+  </tr>
+</table>
+<table border="0">
+  <tr>
+    <td>
+      <table>
+        <caption id="tabla-4">4</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -203,10 +213,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>5</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>5</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -224,10 +236,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>6</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>6</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -245,12 +259,16 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-</div>
-<div style="display: flex; gap: 20px;">
-	<table>
-		<caption id="tabla-7">7</caption>
-		<tr>
+        </table>
+    </td>
+  </tr>
+</table>
+<table border="0">
+  <tr>
+    <td>
+      <table>
+        <caption id="tabla-7">7</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -268,10 +286,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>8</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>8</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -289,10 +309,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>9</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>9</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -310,12 +332,16 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-</div>
-<div style="display: flex; gap: 20px;">
-	<table>
-		<caption id="tabla-10">10</caption>
-		<tr>
+        </table>
+    </td>
+  </tr>
+</table>
+<table border="0">
+  <tr>
+    <td>
+      <table>
+        <caption id="tabla-10">10</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -333,10 +359,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>11</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>11</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -354,10 +382,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>12</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>12</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -375,12 +405,16 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-</div>
-<div style="display: flex; gap: 20px;">
-	<table>
-		<caption id="tabla-13">13</caption>
-		<tr>
+        </table>
+    </td>
+  </tr>
+</table>
+<table border="0">
+  <tr>
+    <td>
+      <table>
+        <caption id="tabla-10">13</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -398,10 +432,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>14</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>14</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -419,10 +455,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>15</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>15</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -440,13 +478,17 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-</div>
-<b><p> . . . </p></b>
-<div style="display: flex; gap: 20px;">
-	<table>
-		<caption id="tabla-16">16</caption>
-		<tr>
+        </table>
+    </td>
+  </tr>
+</table>
+<br><b><p> . . . </p></b><br>
+<table border="0">
+  <tr>
+    <td>
+      <table>
+        <caption id="tabla-10">16</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -464,10 +506,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>17</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>17</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -485,10 +529,12 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-	<table>
-		<caption>18</caption>
-		<tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>18</caption>
+        <tr>
 			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
 		</tr>
 		<tr>
@@ -506,8 +552,10 @@ In the second case, it returns 1 and does not print anything on the screen. It i
 		<tr>
 			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
 		</tr>
-	</table>
-</div>
+        </table>
+    </td>
+  </tr>
+</table>
 
 ### Internal functioning
 
@@ -530,6 +578,12 @@ Tables 16 to 18 shows the last 3 steps where the program get to the end of the p
 There are two different ways to check hints, proactive and reactive.
 - **Proactive**: when its checked with every cell when it's value changes, it's the case of Top and Left hints. As previously mentioned, the table is filled from left to right and from top to bottom so this hints are the guideline for a good solving.
 - **Reactive**: it's only checked when the column/row is complete. It's the case of Right/Bottom hints, they are the final evaluation to ensure row/column follows the logic in both directions.
+
+## Aditional features
+
+The real reason for using malloc in this code is to be as scalable as possible, so that you can create boards as large as your computer allows.
+However, there is a technical problem that can cause a bottleneck, as it follows a recursive resolution, so when you increase the size, the number of stacked iterations also increases, which could be a problem with large numbers. It could even use up all available memory and cause an exception. Keep in mind that the resolution time increases exponentially.
+This could be a great opportunity to improve the code if desired, but it is functional in its current state.
 
 ## What is a rush?
 
