@@ -53,50 +53,56 @@ The initial evaluation corresponds to minimum and maximum values, i.e., 1 and si
 
 #### Example of intital values assignment:
 
-<div style="display: flex; gap: 20px;">
-	<table>
-	<caption>Original</caption>
-	<tr>
-		<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
-	</tr>
-	<tr>
-		<td>2</td><td></td><td></td><td></td><td></td><td>2</td>
-	</tr>
-	<tr>
-		<td>2</td><td></td><td></td><td></td><td></td><td>2</td>
-	</tr>
-	<tr>
-		<td>1</td><td></td><td></td><td></td><td></td><td>3</td>
-	</tr>
-	<tr>
-		<td>3</td><td></td><td></td><td></td><td></td><td>1</td>
-	</tr>
-	<tr>
-		<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
-	</tr>
-	</table>
-	<table>
-	<caption>Added initial values</caption>
-	<tr>
-		<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
-	</tr>
-	<tr>
-		<td>2</td><td></td><td></td><td>4</td><td></td><td>2</td>
-	</tr>
-	<tr>
-		<td>2</td><td></td><td></td><td></td><td></td><td>2</td>
-	</tr>
-	<tr>
-		<td>1</td><td>4</td><td></td><td></td><td></td><td>3</td>
-	</tr>
-	<tr>
-		<td>3</td><td></td><td></td><td></td><td>4</td><td>1</td>
-	</tr>
-	<tr>
-		<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
-	</tr>
-	</table>
-</div>
+<table>
+  <tr>
+    <td>
+      <table>
+        <caption>Original</caption>
+        <tr>
+			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
+		</tr>
+		<tr>
+			<td>2</td><td></td><td></td><td></td><td></td><td>2</td>
+		</tr>
+		<tr>
+			<td>2</td><td></td><td></td><td></td><td></td><td>2</td>
+		</tr>
+		<tr>
+			<td>1</td><td></td><td></td><td></td><td></td><td>3</td>
+		</tr>
+		<tr>
+			<td>3</td><td></td><td></td><td></td><td></td><td>1</td>
+		</tr>
+		<tr>
+			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
+		</tr>
+        </table>
+    </td>
+    <td>
+      <table>
+        <caption>Values set</caption>
+       <tr>
+			<td></td><td>3</td><td>2</td><td>1</td><td>2</td><td></td>
+		</tr>
+		<tr>
+			<td>2</td><td></td><td></td><td>4</td><td></td><td>2</td>
+		</tr>
+		<tr>
+			<td>2</td><td></td><td></td><td></td><td></td><td>2</td>
+		</tr>
+		<tr>
+			<td>1</td><td>4</td><td></td><td></td><td></td><td>3</td>
+		</tr>
+		<tr>
+			<td>3</td><td></td><td></td><td></td><td>4</td><td>1</td>
+		</tr>
+		<tr>
+			<td></td><td>2</td><td>2</td><td>3</td><td>1</td><td></td>
+		</tr>
+        </table>
+    </td>
+  </tr>
+</table>
 
 ### Resolution ([See solve](solve.c))
 The solution is easy to explain, but very costly to implement.
