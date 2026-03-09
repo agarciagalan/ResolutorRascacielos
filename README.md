@@ -4,7 +4,18 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 ![C](https://img.shields.io/badge/c-%2300599C.svg?logo=c&logoColor=white)
 
-<!-- PROJECT EXPLANATION -->
+# Table of Contents
+* [About the Project](#about-the-project)
+* [How it Works](#how-it-works)
+  * [Main Structure](#main-see-main)
+  * [Board Initialization](#board-see-board)
+  * [Resolution Algorithm](#resolution-see-solve)
+    * [Internal Functioning (Step-by-Step)](#following-the-last-example)
+* [Example of solvable puzzles](#example-of-solvable-puzzles)
+* [Aditional features](#aditional-features)
+* [Getting Started](#how-to-get-your-copy)
+* [What is a Rush?](#what-is-a-rush)
+
 ## About the project
 
 In this one, the goal is to solve a skyscraper puzzle, in which you have the clues and the application must fill in the board if possible.
@@ -30,13 +41,6 @@ Once the clues are obtained and the total number is verified to be correct (side
 
 Finally, the solving process begins, which is the last step and will determine whether the clues provided produce a solvable puzzle or not.
 
-### Example of solvable puzzles:
-* 4x4: "3 2 1 2 2 2 3 1 2 2 1 3 2 2 3 1"
-* 5x5: "3 2 1 2 2 1 2 3 4 2 3 2 2 3 1 2 2 3 1 4"
-* 6x6: "2 1 4 2 3 3 2 4 2 2 1 3 2 3 3 3 1 4 3 2 1 2 3 2"
-* 7x7: "1 2 2 3 4 3 3 6 1 3 2 2 2 3 1 3 2 3 3 3 2 5 3 1 2 2 2 4"
-* 8x8: "3 4 3 4 3 2 2 1 1 3 3 2 2 3 3 5 6 2 3 3 4 2 3 1 1 3 2 3 2 3 3 4"
-
 ### Board ([See board](board.c))
 This file contains all the functions related to the initial creation of the board.
 
@@ -47,7 +51,7 @@ The initial evaluation corresponds to minimum and maximum values, i.e., 1 and si
 * When clue value is 1, only one skyscraper can be seen from the position in which it is located, so the adjacent square on the board is set to the value of size.
 * When the clue value is size, it is known that all skyscrapers can be seen from the position in which it is located, so you must fill in all values from 1 to size in the corresponding row or column, starting with the minimum in the cell adjacent to this clue.
 
-#### Example:
+#### Example of intital values assignment:
 
 <div style="display: flex; gap: 20px;">
 	<table>
@@ -568,7 +572,7 @@ In the second case, it returns 1 and does not print anything on the screen. It i
   </tr>
 </table>
 
-### Internal functioning
+#### Internal functioning
 
 1. The function receives the board with original values derived from the strongest hints. [<sup>1</sup>](#tabla-1)
 2. The algorithm attempts to place the minimum valid value **(1)** at the first available cell, **(0, 0)**. [<sup>2</sup>](#tabla-1)
@@ -589,6 +593,13 @@ Tables 16 to 18 shows the last 3 steps where the program get to the end of the p
 There are two different ways to check hints, proactive and reactive.
 - **Proactive**: when its checked with every cell when it's value changes, it's the case of Top and Left hints. As previously mentioned, the table is filled from left to right and from top to bottom so this hints are the guideline for a good solving.
 - **Reactive**: it's only checked when the column/row is complete. It's the case of Right/Bottom hints, they are the final evaluation to ensure row/column follows the logic in both directions.
+
+## Example of solvable puzzles:
+* 4x4: "3 2 1 2 2 2 3 1 2 2 1 3 2 2 3 1"
+* 5x5: "3 2 1 2 2 1 2 3 4 2 3 2 2 3 1 2 2 3 1 4"
+* 6x6: "2 1 4 2 3 3 2 4 2 2 1 3 2 3 3 3 1 4 3 2 1 2 3 2"
+* 7x7: "1 2 2 3 4 3 3 6 1 3 2 2 2 3 1 3 2 3 3 3 2 5 3 1 2 2 2 4"
+* 8x8: "3 4 3 4 3 2 2 1 1 3 3 2 2 3 3 5 6 2 3 3 4 2 3 1 1 3 2 3 2 3 3 4"
 
 ## Aditional features
 
