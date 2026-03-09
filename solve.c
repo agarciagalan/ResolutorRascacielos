@@ -6,7 +6,7 @@
 /*   By: alejanga <alejanga@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 13:13:21 by alejanga          #+#    #+#             */
-/*   Updated: 2026/03/09 14:37:19 by alejanga         ###   ########.fr       */
+/*   Updated: 2026/03/09 16:51:02 by alejanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ int	solve(int *board, int size, int position, int *combination)
 		print_board(board, size);
 		return (0);
 	}
+	if (board[position] != -1)
+		return(solve(board, size, position + 1, combination));
 	option = 1;
 	while (option <= size)
 	{
